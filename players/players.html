@@ -1,0 +1,16 @@
+<h1 class="banner">Locker Room</h1>
+  <nav class="nav">
+    <button class='btn' name="button"><a class="btnTxt" ui-sref="home">Home</a></button>
+    <button class='btn' name="button">  <a class="btnTxt" ui-sref="players">Players</a></button>
+  </nav>
+
+
+    <div class='coreP background' ng-repeat='player in players'>
+      <h3 class="name">{{player.name}}</h3>
+      <img class='playerImg'src="{{player.image}}"/>
+      <h4 class="num">{{player.number}}</h4>
+      <h4 class="pos">{{player.pos}}</h4>
+      <!-- <p>Hello</p> -->
+      <!-- <hr/> -->
+
+    </div>
