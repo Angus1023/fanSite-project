@@ -5,12 +5,22 @@
   </nav>
 
 
-    <div class='coreP background' ng-repeat='player in players'>
-      <h3 class="name">{{player.name}}</h3>
-      <img class='playerImg'src="{{player.image}}"/>
-      <h4 class="num">{{player.number}}</h4>
-      <h4 class="pos">{{player.pos}}</h4>
+    <div class='coreP' ng-repeat='player in players'>
+
+      <div class="coreBox1">
+        <h3 class="name">{{player.name}}</h3>
+        <img class='playerImg'src="{{player.image}}"/>
+        <h4 class="num">#{{player.number}}</h4>
+      </div>
+
+      <div class="coreBox2">
+        <p class="text">Position: {{player.pos}}</p>
+        <p class="text">Height: {{player.stats.ht}}</p>
+        <p class="text">DoB: {{player.stats.birth}}</p>
+        <p class="text">Hometown: {{player.stats.hometown}}</P>
+      </div>
       <!-- <p>Hello</p> -->
-      <!-- <hr/> -->
+
 
     </div>
+    
