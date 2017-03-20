@@ -8,12 +8,21 @@
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;
 }
+.homePara{
+  align-items: flex-end ;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  /*float: left;*/
+}
 .name {
   /*display: inline;*/
   text-align: justify;
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 5px;
+  color: black;
 }
+
 .num {
   display: inline;
   vertical-align:top;
@@ -40,6 +49,45 @@
   flex: auto;
   height: 200px;
   width: 320px;
+  /*justify-content: space-around;*/
+  /*flex-wrap: nowrap;*/
+  /*align-self: flex-start;*/
+  /*align-items: flex-start;*/
+  /*float: left;*/
+}
+.years{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25;
+  margin-top: 0px;
+}
+.numCap {
+  display: block;
+  /*vertical-align:top;*/
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 40px;
+  font-family: 'Baloo Bhaina', cursive;
+  color: white;
+  text-shadow: -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+.nameCap {
+  /*display: inline;*/
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: black;
+  /*margin-top: 10px;*/
+  /*margin-bottom: 10px; */
+}
+.captainImg {
+  flex: auto;
+  height: 370px;
+  width: 620px;
+  align-items: center;
   /*justify-content: space-around;*/
   /*flex-wrap: nowrap;*/
   /*align-self: flex-start;*/
@@ -78,6 +126,7 @@
 }
 .banner {
   font-family: 'Open Sans', sans-serif;
+  /*position: fixed;*/
   font-style: italic;
   text-align: center;
   display: block;
@@ -97,6 +146,7 @@
 }
 .nav {
   text-align: center;
+  /*position: fixed;*/
 }
 .background {
   background-color: red;
@@ -104,30 +154,44 @@
 }
 .coreH {
   display: block;
-  width: 70%;
-  background-color: grey;
+  width: 60%;
+  /*background-color: grey;*/
   margin-left: auto;
   margin-right: auto;
 }
 .coreP {
   /*justify-content: space-around;*/
   display: flex;
+  width: 60%;
+  /*background-color: grey;*/
+  color: black;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.coreA {
+  /*justify-content: space-around;*/
+  display: block;
+  flex-direction: column;
   width: 70%;
   /*background-color: grey;*/
   color: black;
-  align-content: left;
+  align-content: center;
   text-align: center;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 .btn {
-  width: 120px;
-  height: 35px;
+  width: 130px;
+  height: 45px;
   border-radius: 15px;
   background-color: black;
   margin: 0px 110px;
   justify-content: center;
+  /*align-content: space-between;*/
 }
 .btnTxt {
   font-family: 'Open Sans', sans-serif;
@@ -138,15 +202,21 @@
   display: block;
   width: 25%;
   float: left;
-  background-color: beige;
+  margin-top: 5px;
+  margin-right: 20px;
+  padding-left: 25px;
+  /*background-color: beige;*/
   /*vertical-align: middle;*/
   text-align:center;
+}
+.champTitle{
+  margin-top: 10px;
 }
 .champS {
   display: block;
   width: 25%;
   float: left;
-  background-color: beige;
+  /*background-color: beige;*/
   /*vertical-align: middle;*/
   text-align:left;
 }
@@ -154,4 +224,26 @@
   float: left;
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 5px;
+}
+.cupBorder {
+  border: solid lightgrey;
+}
+.teamCaps {
+  display: block;
+  width: 25%;
+  float: right;
+  margin-top: 0px;
+  margin-right: 5px;
+  padding-left: 25px;
+  /*background-color: beige;*/
+  /*vertical-align: middle;*/
+  text-align:center;
+}
+.capsImg {
+  width: 100px;
+  height: 100px;
+}
+@media screen (max-width:700px){
+
 }

@@ -6,21 +6,62 @@
 </nav>
 
 <div class="coreH text">
-      <img class='cup' src='https://s-media-cache-ak0.pinimg.com/originals/bf/c9/1c/bfc91c6e48dc5eaaedcb4558acf14c34.jpg' height="265px" width="160px"/>
-  <div class="text">
-    <h3 class="champRow">The Road of Champions</h3>
-    <h4>Stanley Cup</h4>
-    <p></p>
+  <div>
+          <img class='cup' src='https://s-media-cache-ak0.pinimg.com/originals/bf/c9/1c/bfc91c6e48dc5eaaedcb4558acf14c34.jpg' height="265px" width="160px"/>
+      <div class="text">
+
+        <ul class="champRow cupBorder">
+          <h3 class="champTitle">The Road of Champions</h3>
+          <li>1973-74 Stanley Cup</li>
+          <li>1974-75 Stanley Cup</li>
+          <li>Conference Champ (1974-75,1975-76, 1976-77, 1979-80, 1984-85, 1986-87,1996-97, 2009-10)</li>
+          <li>Division Champs (1967–68, 1973–74, 1974–75, 1975–76, 1976–77, 1979–80, 1982–83, 1984–85, 1985–86, 1986–87, 1994–95, 1995–96, 1999–00, 2001–02, 2003–04, 2010–11)</li>
+
+
+        </ul>
+        <!-- <h4>Stanley Cup</h4> -->
+        <p></p>
+      </div>
   </div>
 
   <!-- <br/> -->
-  <div >
-      <h4>TESTING</h4>
-        <p>Formed in 1967, by former founder Ed Snider the Philadelphia Flyers were the second hockey franchise for the city, the first being The Quakers lasting only one season 1930-31 which was part of the NHL after moving the struggling Pittsburgh Pirates.</p>
+  <div class='homePara' >
+      <!-- <h4>TESTING</h4> -->
+
+         <p><span><img src="https://www-league.nhlstatic.com/builds/site-core/142607b9e14eb10190e9a82c4e6c2d9134ea06c3_1489099646/images/logos/team/current/team-4-dark.svg" height="70px" width="70px"></span>Formed in 1967, by former founder Ed Snider the Philadelphia Flyers were the second hockey franchise for the city, the first being The Quakers lasting only one season 1930-31 which was part of the NHL after moving the struggling Pittsburgh Pirates.</p>
         <p>The early years were tough for the Flyers and other newly formed franchises beacause of the in place restrictive rules that kept the major talent within the “Original Six” teams. Some of the first players for the Flyers were Bernie Parent, Doug Favell, Bill Sutherland, Ed Van Impe.</p>
         <p>Debuting on the ice for the first time dawning the orange and black sweater on October 11, 1967, losing to the home team California Seals. Later they won their first game against the St. Louis Blues while on the road and came home to play and win their first home game against the instate rival Pittsburgh Penguins 1-0.</p>
         <p>Form the year of 1972-1979 were the time of the Broad Street Bullies a nickname given to Flyers coined by Jack Chevalier and Pete Cafone, after a 3-1 brawling victory over the Atlanta Flames. They were known for the brawling and tough playing skills in the league. Ins 1973-74 season the Flyers proved that an expansion team could challenge the Original Six  for that season having a record of 50-16-12, in the payoffs the went on to play and defeat the Atlanta Flames, New York Rangers then in the Cup playing Bobby Orr and the Boston Bruins wining the series in Game 6. Bringing the Cups home to Philadelphia for the first ime and being the first non-Original Six team to hold the cup.
         </p>
   <!-- <hr/> -->
+  </div>
+  <img src="http://media.gettyimages.com/photos/members-of-the-philadelphia-flyers-pose-for-the-official-20152016-picture-id524517186" height= "420" width="800">
+  <div class="teamCaps cupBorder">
+    <h3>Team Captains</h3>
+    <ul ng-repeat="captain in captains">
+
+      <li><a ui-sref="about({id:captain.id})">{{captain.name}}</a></li>
+      <!-- <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li> -->
+      <!-- <li></li> -->
+
+    </ul>
+
+
   </div>
 </div>

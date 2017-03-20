@@ -54,7 +54,7 @@ angular.module('fanSite').service('playersService', function() {
         {
             name: "Michael Del Zotto",
             id:5 ,
-            image: "http://www.csnphilly.com/sites/csnphilly/files/2016/05/11/usa-michael-del-zotto-flyers.jpg",
+            image: "http://static.gofansgo.com/media/post_images/111814DelZotto_kCFLFf7.jpg",
             number: 15,
             pos: 'Defence',
             stats: {
@@ -68,7 +68,7 @@ angular.module('fanSite').service('playersService', function() {
         {
             name: "Steve Mason",
             id:6 ,
-            image: "http://3951-presscdn-28-25.pagely.netdna-cdn.com/wp-content/uploads/2013/10/Steve-Mason.jpg",
+            image: "http://www.csnphilly.com/sites/csnphilly/files/2016/12/07/usa-steve-mason-flyers-panthers.jpg",
             number: 35,
             pos: 'Goalie',
             stats: {

@@ -12,6 +12,11 @@ angular.module('fanSite',['ui.router']).config(function($urlRouterProvider, $sta
       controller: 'playersCtrl',
       url: '/players'
     })
+    .state("about", {
+      templateUrl: "about/about.html",
+      controller: "aboutCtrl",
+      url: "/about/ :id"
+    })
 
 
 });
